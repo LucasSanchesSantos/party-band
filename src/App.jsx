@@ -1,9 +1,13 @@
 import React from 'react'
 
+import Rotas from './routes'
+import 'bootstrap/dist/css/bootstrap.min.css'
+
 function App() {
   return (
     <>
-      <h1>Olá, mundo!</h1>
+      <Rotas/>
+      {/*aqui nas notas ele esta chamando a constant rotas do arquivo routes.jsx */}
     </>
   );
 }
